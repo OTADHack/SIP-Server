@@ -13,4 +13,4 @@ then
   exit 1
 fi
 
-sipp $1:5060 -sf Bob-Reg.xml -r 1 -m 1 -i $1 -p 7777
+sipp $1:5060 -sf Jake-Reg.xml -r 1 -m 1 -i $1 -p 7777

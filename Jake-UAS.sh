@@ -13,4 +13,4 @@ then
   exit 1
 fi
 
-sipp $1:5060 -sf Alice-UAC.xml -r 1 -m 1 -i $1 -p 7788
+sipp $1:5060 -sf Jake-UAS.xml -r 1 -m 1 -i $1 -p 7777

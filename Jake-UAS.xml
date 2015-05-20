@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE scenario SYSTEM "sipp.dtd">
 
-<scenario name="Bob UAS">
+<scenario name="Jake UAS">
   <recv request="INVITE" crlf="true">
   </recv>
 
@@ -25,7 +25,7 @@
       [last_To:];tag=[call_number]-UAS
       [last_Call-ID:]
       [last_CSeq:]
-      Contact: "Bob" <sip:bob@[local_ip]:[local_port]>
+      Contact: "Jake" <sip:jake@[local_ip]:[local_port]>
       [last_Record-Route:]
       Content-Length: 0
 
@@ -44,7 +44,7 @@
       [last_Call-ID:]
       [last_CSeq:]
       [last_Record-Route:]
-      Contact: "Bob" <sip:bob@[local_ip]:[local_port]>
+      Contact: "Jake" <sip:jake@[local_ip]:[local_port]>
       Content-Type: application/sdp
       Content-Length: [len]
 
@@ -77,7 +77,7 @@
       [last_To:]
       [last_Call-ID:]
       [last_CSeq:]
-      Contact: "Bob" <sip:bob@[local_ip]:[local_port]>
+      Contact: "Jake" <sip:jake@[local_ip]:[local_port]>
       Content-Length: 0
 
     ]]>
